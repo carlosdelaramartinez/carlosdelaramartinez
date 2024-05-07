@@ -1,3 +1,155 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Balonmano - Página Principal</title> <link rel="stylesheet" href="styles.css"> </head> <body> <div class="header"> <h1>Balonmano</h1> <p>Una plantilla de W3Schools</p> </div> <div class="navbar"> <a href="index.html">Inicio</a> <a href="noticias.html">Noticias</a> <a href="calendario.html">Calendario</a> <a href="equipos.html">Equipos</a> </div> <div class="row"> <div class="main"> <h2>Bienvenido a la página principal</h2> <p>¡Explora las últimas noticias, el calendario de partidos y conoce a nuestros equipos!</p> </div> </div> <div class="footer"> <h2>Pie de página</h2> </div> </body> </html>
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Balonmano - Página de Noticias/Calendario/Equipos</title> <link rel="stylesheet" href="styles.css"> </head> <body> <div class="header"> <h1>Balonmano</h1> <p>Una plantilla de W3Schools</p> </div> <div class="navbar"> <a href="index.html">Inicio</a> <a href="noticias.html">Noticias</a> <a href="calendario.html">Calendario</a> <a href="equipos.html">Equipos</a> </div> <div class="row"> <div class="main"> <!-- Contenido específico de la página de noticias, calendario o equipos --> <h2>Título de la página</h2> <p>Contenido de la página...</p> </div> </div> <div class="footer"> <h2>Pie de página</h2> </div> </body> </html>
-/* Estilos generales */ body { font-family: Arial, sans-serif; } .header, .footer { background-color: #f1f1f1; padding: 20px; text-align: center; } .navbar { overflow: hidden; background-color: #333; } .navbar a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; } .navbar a:hover { background-color: #ddd; color: black; } .row { display: flex; flex-wrap: wrap; padding: 0 20px; } .main { flex: 100%; padding: 20px; } .footer { background-color: #333; color: white; } /* Responsive layout */ @media screen and (max-width: 900px) { .row { flex-direction: column; } } /* Estilos específicos para la plantilla de balonmano */ h1 { color: #333; } h2 { color: #666; }
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="imagenes/avatar_hat1.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2></h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Políticos cualificados</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Maristas Cartagena</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>carlosdelaram.car@maristasmediterranea.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>672699395</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Los puntos que considermos mas importantes a mejorar</b></p>
+          <p>economía</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>cultura</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>ecología</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>relaciones internacionales</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Nuestros puntos fuertes como partido</b></p>
+          <p>empáticos</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>ganas de ayudar</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Mentirosos</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:1%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>En cuanto a nosotros</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Partido Político de Renovación Ciudadana (PPRD)</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2024 <span class="w3-tag w3-teal w3-round">El año en el que españa saldrá adelante</span></h6>
+          <p>Nosotros queremos orientar nuestro partido hacia los puntos que nosotros consideramos que están muy poco cuidados para lo importantes que son, los cuales son la economía, la ecología, las relaciones internacionales y la cultura.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b> Algunas propuestas </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> El trampolín de españa al exito</h6>
+          <p>Desde la cancelación de la manipulación de datos de los medios de información hasta la bajada de impuesto o el intento de revalorización de la moneda internacional serían algunos de nuestras propuestas.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>En cuanto a nosotros</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Nosotros somos simples pensadores que han levantado la cabeza, tenemos intención de hacer españa un lugar para todos, independientemente de cultura, origen o situación economica. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Lo mas importante para nosotros</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Economía </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>El punto de partida de cualquier sociedad</h6>
+          <p> </p> - Invertir en educación de calidad para todos, promoviendo la equidad y la excelencia académica desde la infancia hasta la educación superior. <br> - Fomentar el emprendimiento y la innovación mediante incentivos fiscales y programas de apoyo para startups y pequeñas empresas
+</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Ecología</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>¿Qué sentido tiene vivir en una sociedad que esta condenada a la muerte por la contaminación?</h6>
+          <p>- Promover la sostenibilidad ambiental mediante la inversión en energías renovables, la protección de espacios naturales y la reducción de la contaminación.
+</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Cultura</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Una de las mas importantes formas de representación del país</h6>
+          <p> - Impulsar políticas de igualdad de género para eliminar la discriminación y garantizar la participación equitativa de hombres y mujeres en todos los ámbitos de la sociedad <br> - Fomentar la cultura cívica y el voluntariado para fortalecer el tejido social y promover la solidaridad entre los ciudadanos</p><br>
+        </div>
+         <div class="w3-container">
+          <h5 class="w3-opacity"><b>Relaciones internacionales</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>La politica nacional e internacional es imprescendible para un partido</h6>
+          <p>- Modernizar el sistema de gobierno y la administración pública mediante la digitalización y la simplificación de trámites, para aumentar la eficiencia y la transparencia del Estado</p>
+          <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Que esta sociedad no te engañe.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">PPUD</a></p>
+</footer>
+          <img src="imagenes/avatar_hat2.jpg" style="width:100%" alt="Avatar">
+</body>
+</html>
